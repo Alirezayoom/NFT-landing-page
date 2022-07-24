@@ -6,7 +6,7 @@ const Navbar = () => {
         {name: "Buy NFTs", link: "/"}
     ]
 
-    return (<nav className="py-[50px]">
+    return (<nav className="mb-2 py-[50px]">
         <div className="text-white font-normal text-lg flex justify-between">
             <div className="ml-4 font-bold text-xl cursor-pointer">KRYPTO</div>
             <ul className="flex mr-4">

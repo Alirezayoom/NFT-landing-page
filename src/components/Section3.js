@@ -1,12 +1,9 @@
 import Button from './UI/Button';
-import l1 from '../assets/l1.png';
+import r2 from '../assets/r2.png';
 
-const Section2 = () => {
+const Section3 = () => {
     return (
-       <section className="mb-28 flex justify-between">
-           <div className='w-1/2'>
-                <img src={l1} alt="l1" />
-           </div>
+       <section className="mb-36 flex justify-between">
            <div className='w-1/2'>
                 <div className='mt-7'>
                     <p className='font-bold text-teal-400 text-xl mb-2'>ANALYTICS</p>
@@ -17,8 +14,12 @@ const Section2 = () => {
                 </div>
                 <Button className="px-[50px]">VIEW OUR PRICING</Button>
            </div>
+           <div className='w-1/2'>
+                <img src={r2} alt="l1" className='ml-auto mr-8' />
+           </div>
+           
        </section>
     )
 }
 
-export default Section2;
+export default Section3;

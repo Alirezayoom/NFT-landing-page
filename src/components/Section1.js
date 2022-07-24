@@ -6,9 +6,9 @@ import p4 from '../assets/p4.png';
 
 const Section1 = () => {
     return (
-        <section className='mt-28'>
+        <section className='mb-28'>
         <p className='mb-4'>FEATURED ON</p>
-        <div className="  bg-[#272458] rounded-lg py-5">
+        <div className="bg-[#272458] rounded-lg py-5">
             
             <div className='flex justify-between mx-20 items-center' >
                 <span className=''><img src={p1} alt="p1"/></span>
