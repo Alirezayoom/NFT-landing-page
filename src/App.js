@@ -1,12 +1,13 @@
 
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import Section1 from './components/Section1';
+import Featured from './components/Featured';
 import Section2 from './components/Section2';
 import Section3 from './components/Section3';
 import Support from './components/Support';
 import Section5 from './components/Section5';
 import Footer from './components/Footer';
+
 
 function App() {
   return (<div className="bg-[#010922] text-white">
@@ -14,7 +15,7 @@ function App() {
       <Navbar />
       <Header />
       <main>
-          <Section1 />
+          <Featured />
           <Section2 />
           <Section3 />
           <Support />
