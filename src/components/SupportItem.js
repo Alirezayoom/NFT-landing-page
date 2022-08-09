@@ -1,6 +1,6 @@
 import d1 from "../assets/d1.jpg";
 
-const Testis = (props) => {
+const SupportItem = (props) => {
     return (
         <div className="max-w-[440px]  bg-[#272358]  rounded-2xl relative my-16">
             <div className="flex justify-center">
@@ -15,4 +15,4 @@ const Testis = (props) => {
     )
 }
 
-export default Testis;
+export default SupportItem;

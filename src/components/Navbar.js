@@ -15,9 +15,15 @@ const Navbar = () => {
 
     return (<nav className="mb-2 py-[50px]">
         <div className="text-white font-normal text-lg md:flex justify-between">
-            <div className="ml-4 font-bold text-xl cursor-pointer">KRYPTO</div>
+            <div className="ml-4 font-bold  cursor-pointer">KRYPTO</div>
+            
             <div onClick={navHandler} className="absolute right-4 top-[50px]
-             font-bold text-xl cursor-pointer md:hidden">y</div>
+            font-bold text-xl cursor-pointer md:hidden">{nav ? <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg> : <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>}</div>
+
             <ul className={`mr-4 md:static md:flex
             absolute top-[100px] bg-[#010922]
             md:bg-transparent md:w-auto w-full md:pb-0 pb-8 
