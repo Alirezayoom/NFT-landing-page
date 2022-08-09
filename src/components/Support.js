@@ -8,9 +8,9 @@ import d3 from '../assets/d3.jpg'
 
 const Support = () => {
     return (
-       <section className="mb-28 w-full mx-auto">
+       <section className="mb-20 w-full mx-auto">
            <div className="mx-4">
-                <div className="max-w-xl mx-auto mb-36">
+                <div className="max-w-xl mx-auto mb-24">
                         <p className='font-bold text-center text-teal-400 text-xl mb-2'>TESTIMONIALS</p>
                         <p className='text-6xl font-bold text-center'>Read What Others Have To Say</p>
                 </div>
