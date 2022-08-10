@@ -30,7 +30,7 @@ const Navbar = () => {
             md:shadow-none shadow-black shadow-lg
             ${nav ? 'mt-auto' : 'hidden'} `}>
                 {links.map(link=>(
-                    <li className="md:ml-16 md:py-0 py-4" key={link.name}><a className="py-4 md:px-0 px-44" href={link.link}>{link.name}</a></li>
+                    <li className="md:ml-16 md:py-0 py-4" key={link.name}><a onClick={navHandler} className="py-4 md:px-0 px-44" href={link.link}>{link.name}</a></li>
                 ))}
             </ul>
         </div>

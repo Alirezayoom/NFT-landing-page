@@ -10,9 +10,9 @@ const Support = () => {
     return (
        <section className="mb-20 w-full mx-auto">
            <div className="mx-4">
-                <div className="max-w-xl mx-auto mb-24">
-                        <p className='font-bold text-center text-teal-400 text-xl mb-2'>TESTIMONIALS</p>
-                        <p className='text-6xl font-bold text-center'>Read What Others Have To Say</p>
+                <div className="max-w-xl mx-auto mb-16">
+                        <p className='font-bold text-center text-teal-400 md:text-xl sm:text-lg text-base mb-2'>TESTIMONIALS</p>
+                        <p className='md:text-6xl text-5xl font-bold text-center'>Read What Others Have To Say</p>
                 </div>
                 <div className="grid md:grid-cols-3 md:gap-4 grid-cols-1 justify-items-center">
                         <SupportItem

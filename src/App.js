@@ -21,7 +21,7 @@ function App() {
           <Support />
           <Section5 />
       </main>
-      <Footer />
+      
     </div>
   </div>)
 }
