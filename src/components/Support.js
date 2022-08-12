@@ -4,13 +4,15 @@ import d1 from '../assets/d1.jpg'
 import d2 from '../assets/d2.jpg'
 import d3 from '../assets/d3.jpg'
 
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const Support = () => {
     return (
-       <section className="mb-20 w-full mx-auto">
+       <section className="mb-20  max-w-[1080px] mx-auto">
            <div className="mx-4">
-                <div className="max-w-xl mx-auto mb-16">
+                <div className="max-w-xl mx-auto mb-16" data-aos="flip-up">
                         <p className='font-bold text-center text-teal-400 md:text-xl sm:text-lg text-base mb-2'>TESTIMONIALS</p>
                         <p className='md:text-6xl text-5xl font-bold text-center'>Read What Others Have To Say</p>
                 </div>

@@ -3,10 +3,14 @@ import p2 from '../assets/p2.png';
 import p3 from '../assets/p3.png';
 import p4 from '../assets/p4.png';
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const Featured = () => {
     return (
-        <section className='mb-28 mx-4'>
+        <section className='mb-28  max-w-[1080px] mx-auto'>
+        <div className='mx-4' data-aos="fade-up">
         <p className='mb-4'>FEATURED ON</p>
         <div className="bg-[#272458] rounded-lg py-5">
             
@@ -16,6 +20,7 @@ const Featured = () => {
                 <div className='px-4 my-3'><img src={p3} alt="p1"/></div>
                 <div className='px-4 my-3'><img src={p4} alt="p1"/></div>
             </div>
+        </div>
         </div>
         </section>
     )

@@ -1,28 +1,29 @@
 
 import Navbar from './components/Navbar';
-import Header from './components/Header';
+import Home from './components/Home';
 import Featured from './components/Featured';
-import Section2 from './components/Section2';
-import Section3 from './components/Section3';
+import Services1 from './components/Services1';
+import Services2 from './components/Services2';
 import Support from './components/Support';
-import Section5 from './components/Section5';
+import JoinUs from './components/JoinUs';
 import Footer from './components/Footer';
 
 
 function App() {
   return (<div className="bg-[#010922] text-white">
-    <div className="max-w-[1080px] mx-auto">
+    <div className="">
       <Navbar />
-      <Header />
+      <Home />
       <main>
           <Featured />
-          <Section2 />
-          <Section3 />
+          <Services1 />
+          <Services2 />
           <Support />
-          <Section5 />
+          <JoinUs />
       </main>
       
     </div>
+    <div className="w-full h-4 bg-gradient-to-r from-[#565bbd] to-[#94c7d2]  mt-16"></div>
   </div>)
 }
 
