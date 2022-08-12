@@ -21,7 +21,7 @@ function App() {
           <Support />
           <JoinUs />
       </main>
-      
+          <Footer />
     </div>
     <div className="w-full h-4 bg-gradient-to-r from-[#565bbd] to-[#94c7d2]  mt-16"></div>
   </div>)
